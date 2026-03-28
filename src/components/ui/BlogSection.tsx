@@ -75,12 +75,6 @@ export function BlogSection() {
           ))}
         </div>
       </div>
-
-      <div className="flex justify-center mt-8">
-        <button className="text-white/50 hover:text-white transition-colors duration-300" aria-label="Load more articles">
-          <ChevronDown className="w-8 h-8" />
-        </button>
-      </div>
     </section>
   );
 }

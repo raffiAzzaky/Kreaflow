@@ -5,13 +5,13 @@ export default function VideoPage() {
   return (
     <div className="space-y-6">
       <div className="flex items-center gap-4 mb-2">
-         <Link href="/dashboard" className="hidden md:flex p-2 hover:bg-white/5 rounded-full text-gray-400 hover:text-white transition-colors">
-            <MoveLeft size={24} />
-         </Link>
-         <div className="flex items-center gap-3">
-           <Link href="/dashboard" className="md:hidden text-gray-400 hover:text-white"><MoveLeft size={24}/></Link>
-           <h1 className="text-2xl md:text-3xl font-bold text-white tracking-wide">Video</h1>
-         </div>
+        <Link href="/dashboard" className="hidden md:flex p-2 hover:bg-white/5 rounded-full text-gray-400 hover:text-white transition-colors">
+          <MoveLeft size={24} />
+        </Link>
+        <div className="flex items-center gap-3">
+          <Link href="/dashboard" className="md:hidden text-gray-400 hover:text-white"><MoveLeft size={24} /></Link>
+          <h1 className="text-2xl md:text-3xl font-bold text-white tracking-wide">Video</h1>
+        </div>
       </div>
       <div>
         <h2 className="text-white font-bold text-lg">Most view video in this week</h2>

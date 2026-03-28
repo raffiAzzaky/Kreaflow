@@ -33,7 +33,7 @@ export function ContactSection() {
                 <input type="text" placeholder="Enter your phone number" className="w-full bg-[#05070A]/50 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all font-light" />
               </div>
             </div>
-            
+
             <div className="space-y-2">
               <label className="text-sm font-medium text-white">Email:</label>
               <input type="email" placeholder="Enter your email" className="w-full bg-[#05070A]/50 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all font-light" />
@@ -50,8 +50,8 @@ export function ContactSection() {
             </div>
 
             <div className="pt-2 text-center">
-              <button 
-                type="button" 
+              <button
+                type="button"
                 className="w-40 py-3 bg-gradient-c rounded-2xl font-bold transition-transform duration-300 hover:scale-105 shadow-[0_0_15px_rgba(255,255,255,0.2)]"
               >
                 Submit
@@ -76,7 +76,7 @@ export function ContactSection() {
               </div>
               <div>
                 <p className="text-sm font-bold text-white tracking-wider">E-MAIL ADDRESS</p>
-                <a href="mailto:mail@gmail.com" className="text-blue-400 text-sm hover:underline font-light">mail@gmail.com</a>
+                <a href="mailto:mail@gmail.com" className="text-blue-400 text-sm hover:underline font-light">Kreaflow@gmail.com</a>
               </div>
             </div>
 
@@ -86,7 +86,7 @@ export function ContactSection() {
               </div>
               <div>
                 <p className="text-sm font-bold text-white tracking-wider">PHONE NUMBER</p>
-                <p className="text-gray-400 text-sm font-light">+621345678900</p>
+                <p className="text-gray-400 text-sm font-light">+6213425788900</p>
               </div>
             </div>
 
@@ -96,15 +96,15 @@ export function ContactSection() {
               </div>
               <div>
                 <p className="text-sm font-bold text-white tracking-wider">LOCATION</p>
-                <p className="text-gray-400 text-sm font-light">Lamongan, Lamongan.</p>
+                <p className="text-gray-400 text-sm font-light">Lamongan, Jawa Timur.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
+
       <div className="flex justify-center mt-20 mb-4">
-        <button 
+        <button
           onClick={scrollToTop}
           className="p-3 text-white/50 hover:text-white hover:bg-white/10 rounded-full transition-all duration-300"
           aria-label="Scroll to top"

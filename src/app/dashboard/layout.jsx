@@ -52,12 +52,10 @@ export default function DashboardLayout({ children }) {
       <aside
         className={`fixed md:sticky top-0 left-0 h-screen w-64 bg-[#05070A] border-r border-white/10 flex flex-col z-50 transition-transform duration-300 ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0`}
       >
-        <div className="p-6 flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <img src="/logo.PNG" alt="Kreaflow Logo" className="h-8 w-auto object-contain" />
-            <span className="text-gradient-kristal text-2xl font-bold tracking-wide italic leading-none">Kreaflow</span>
-          </div>
-          <button className="md:hidden text-gray-400 hover:text-white" onClick={() => setIsSidebarOpen(false)}>
+        <div className="p-8 flex justify-center items-center">
+          <span className="text-gradient-kristal text-2xl font-bold tracking-wide italic leading-none p-2">Kreaflow</span>
+
+          <button className="md:hidden text-gray-400 hover:text-white p-4" onClick={() => setIsSidebarOpen(false)}>
             <X size={24} />
           </button>
         </div>

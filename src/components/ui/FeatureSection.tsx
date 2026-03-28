@@ -34,12 +34,12 @@ const bottomFeatures: FeatureCard[] = [
   {
     title: "Trending Products",
     description: "Discover What's Popular in the Marketplace",
-    icon: <TrendingUp className="w-10 h-10 text-white/50" />,
+    icon: <TrendingUp className="w-10 h-10 text-blue-500" />,
   },
   {
     title: "Market Insights",
     description: "Understand Market Trends and Opportunities",
-    icon: <BarChart3 className="w-10 h-10 text-white/50" />,
+    icon: <BarChart3 className="w-10 h-10 text-blue-500" />,
   },
 ];
 
@@ -71,9 +71,8 @@ export const FeatureSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
-              className={`group relative glass-card rounded-3xl p-8 flex flex-col items-center justify-center text-center overflow-hidden transition-all duration-300 hover:scale-105 hover:bg-white/[0.05] hover:shadow-[0_0_30px_rgba(59,130,246,0.15)] hover:border-blue-500/30 ${
-                feature.highlight ? "border-blue-500/30" : ""
-              }`}
+              className={`group relative glass-card rounded-3xl p-8 flex flex-col items-center justify-center text-center overflow-hidden transition-all duration-300 hover:scale-105 hover:bg-white/[0.05] hover:shadow-[0_0_30px_rgba(59,130,246,0.15)] hover:border-blue-500/30 ${feature.highlight ? "border-blue-500/30" : ""
+                }`}
             >
               <div className="absolute inset-0 bg-blue-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="mb-6 z-10">{feature.icon}</div>

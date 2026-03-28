@@ -23,13 +23,11 @@ export function AuthLayoutWrapper({ children }: { children: React.ReactNode }) {
 
         {/* Top bar with Logo and Back */}
         <div className="relative z-10 w-full flex items-center justify-between mb-20">
-          <Link href="/" className="flex items-center gap-2 group hover:text-blue-400 transition-colors">
-            <div className="w-8 h-8 bg-white flex flex-col justify-between p-[5px] rounded-md transition-colors group-hover:bg-blue-400">
-              <div className="h-[2px] bg-[#05070A] w-full" />
-              <div className="h-[2px] bg-[#05070A] w-full" />
-              <div className="h-[2px] bg-[#05070A] w-full" />
+          <Link href="/">
+            <div className="flex items-center gap-2">
+              <img src="/logo.png" alt="Kreaflow Logo" className="h-8 w-auto object-contain" />
+              <span className="text-xl font-bold text-white tracking-wide">Kreaflow</span>
             </div>
-            <span className="text-2xl font-bold text-white tracking-wide group-hover:text-blue-400 transition-colors">Kreaflow</span>
           </Link>
 
           <Link href="/" className="text-gray-400 hover:text-white flex items-center gap-2 transition-colors text-sm font-medium">

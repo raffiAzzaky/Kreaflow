@@ -23,7 +23,7 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-[#05070A]/80 backdrop-blur-md py-4 px-6 md:py-6 md:px-16 lg:px-24 flex items-center justify-between text-white border-b border-white/5">
       <div className="flex items-center gap-2">
-        <img src="/logo.PNG" alt="Kreaflow Logo" className="h-8 w-auto object-contain" />
+        <img src="/logo.png" alt="Kreaflow Logo" className="h-8 w-auto object-contain" />
         <span className="text-white text-2xl font-bold tracking-wide">Kreaflow</span>
       </div>
 
